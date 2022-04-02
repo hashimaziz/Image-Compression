@@ -31,9 +31,7 @@ if(img.mode == "RGB"):
         
             pix[x, y] = (r, g, b)
             fullValueList.append(str(r) + " " + str(g) + " " + str(b))
-for pixel in fullValueList:
-    for value in pixel:
-        pass
+
 valueCount = 1
 previousVal = None
 for value in fullValueList:
